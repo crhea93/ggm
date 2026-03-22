@@ -1,0 +1,10 @@
+pyproject.toml
+ggm.egg-info/PKG-INFO
+ggm.egg-info/SOURCES.txt
+ggm.egg-info/dependency_links.txt
+ggm.egg-info/entry_points.txt
+ggm.egg-info/requires.txt
+ggm.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/core.py

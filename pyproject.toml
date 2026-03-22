@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ggm"
+version = "0.1.0"
+description = "Apply a Gaussian filter to FITS images."
+readme = ""
+requires-python = ">=3.10"
+dependencies = [
+    "astropy",
+    "cyclopts",
+    "matplotlib",
+    "numpy",
+    "scipy",
+]
+
+[project.scripts]
+ggm = "src.cli:app"
+
+[tool.setuptools]
+packages = ["src"]

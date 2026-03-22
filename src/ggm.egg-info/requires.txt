@@ -1,0 +1,4 @@
+astropy
+cyclopts
+numpy
+scipy

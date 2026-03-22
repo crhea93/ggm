@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ggm
+Version: 0.1.0
+Summary: Apply a Gaussian filter to FITS images.
+Requires-Python: >=3.10
+Requires-Dist: astropy
+Requires-Dist: cyclopts
+Requires-Dist: numpy
+Requires-Dist: scipy
